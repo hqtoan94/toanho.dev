@@ -23,7 +23,7 @@ const greeting = {
   username: "Toan Ho",
   title: "Hi mate, I'm Toan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Python / Django and some other cool libraries and frameworks."
+    "I'm a seasoned software engineer with 7 years of experience in end-to-end development, specializing in technologies like Node.js, Python, and React.js. My passion lies in leveraging software engineering to simplify people's lives and address technical challenges. Whether it's troubleshooting issues, crafting innovative solutions, or fostering teams grounded in best practices, I'm dedicated to making a meaningful impact in the world of software development"
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -57,44 +57,56 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML-5/CSS3",
       fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "jenkins",
+      skillName: "Jenkins",
       fontAwesomeClassname: "fab fa-jenkins"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "Postgresql",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Infrastructure as Code",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -103,26 +115,19 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "AWS Certified Solutions Architect - Associate",
+      logo: require("./assets/images/aws-architect.png"),
+      subHeader: "Amazon Web Services",
+      duration: "2022 - 2025"
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Ho Chi Minh City University of Science",
+      logo: require("./assets/images/hcmus.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "August 2012 - August 2016"
     }
   ]
 };
@@ -133,15 +138,27 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Software Engineering", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Solutions Architecture", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Microservices", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Engineering Management", //Insert stack or technology you have experience in
+      progressPercentage: "65%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Agile Software Development",
       progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
+      Stack: "Cloud, AWS",
       progressPercentage: "90%"
     }
   ],
