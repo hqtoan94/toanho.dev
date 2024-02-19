@@ -139,15 +139,15 @@ const techStack = {
   experience: [
     {
       Stack: "Software Engineering", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Solutions Architecture", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Microservices", //Insert stack or technology you have experience in
-      progressPercentage: "85%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Engineering Management", //Insert stack or technology you have experience in
@@ -155,11 +155,11 @@ const techStack = {
     },
     {
       Stack: "Agile Software Development",
-      progressPercentage: "90%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Cloud, AWS",
-      progressPercentage: "90%"
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -168,32 +168,41 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Consultant, Engineer",
+      company: "NAB",
+      companylogo: require("./assets/images/nab.png"),
+      date: "Jun 2020 - Aug 2022, Feb 2023 – Present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Growing technical and soft skills for engineers",
+        "Building ground rules for software practices and embracing the adoption of efficient engineering practices for the stream",
+        "Designing and making technical decisions for the owned assets",
+        "Maintaining software quality by embracing unittest/e2e test with good mindset of test coverage"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Software Engineer",
+      company: "KMS Technology, Inc.",
+      companylogo: require("./assets/images/kms.png"),
+      date: "Jun 2018 – Jun 2020",
+      descBullets: [
+        "Collaborated with client to clarify requirements, provided technical solutions to address business requirements",
+        "Inquired business logic, carried out codebase assessment, project installation, infrastructure setup",
+        "Formed software development lifecycle, build up CI/CD pipeline, setup coding standards/coding best practices"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Engineer",
+      company: "Self Employed",
+      companylogo: require("./assets/images/self-employed.png"),
+      date: "2017 – 2024",
+      descBullets: [
+        "Build freelancer projects to improve performance for users",
+        "Amazon Quick Copy: An extension allow users copy all Amazon product information with just a click",
+        "Amz Repricer Enhanced: A service that inject uploaded data in Amazon Seller Central for better repricing decisions"
+      ]
     }
   ]
 };
@@ -243,61 +252,60 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: "Achievements",
+  subtitle: "Achievements and Some Cool Stuff that I have done !",
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Tech Sharing",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Microservices and Micro Frontends: Accelerating technology transformation at NAB Vietnam Technology Centre",
+      image: require("./assets/images/tech-sharing.jpg"),
+      imageAlt: "Tech sharing",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Speaker",
+          url: ""
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Tech Sharing",
+          url: ""
         },
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Microservices",
+          url: ""
+        },
+        {
+          name: "Micro-frontend",
+          url: ""
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "NAB Vietnam Stars of the year - FY23",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "The prize in recognition of someone's effort in going above and beyond to create outstanding work along the year.",
+      image: require("./assets/images/star-of-the-year.jpg"),
+      imageAlt: "SOY",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Award",
+          url: ""
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Highest number of recognition nominations - FY23",
+      subtitle:
+        "The prize at domain level for people who got highest number of recognition nominations in a year",
+      image: require("./assets/images/recognition-fy23.jpg"),
+      imageAlt: "",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Award", url: ""},
+        {name: "Recognition", url: ""}
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
