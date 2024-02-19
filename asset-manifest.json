@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.3cf13eba.css",
-    "main.js": "/static/js/main.d628a84b.js",
+    "main.js": "/static/js/main.cbaaaed3.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.ee235cec.chunk.js": "/static/js/64.ee235cec.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.d7c05d9c.chunk.js": "/static/js/769.d7c05d9c.chunk.js",
-    "static/media/recognition-fy23.jpg": "/static/media/recognition-fy23.e3784c50f7fc7af5ddac.jpg",
-    "static/media/tech-sharing.jpg": "/static/media/tech-sharing.dbd4d849d2e642695fb2.jpg",
-    "static/media/star-of-the-year.jpg": "/static/media/star-of-the-year.2120ac90253df66f7296.jpg",
     "static/media/nab.png": "/static/media/nab.a810021dce8013e83717.png",
     "static/media/hcmus.png": "/static/media/hcmus.985c2c0908ba3d9ac7a3.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/recognition-fy23.jpg": "/static/media/recognition-fy23.e3c5b000bc77f7b28ea6.jpg",
     "static/media/kms.png": "/static/media/kms.cb9b1df3c411d3c23a6f.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/tech-sharing.jpg": "/static/media/tech-sharing.c117f7f34a6204d6483d.jpg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/star-of-the-year.jpg": "/static/media/star-of-the-year.f25d31234e78da4c45a8.jpg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/aws-architect.png": "/static/media/aws-architect.8cf44a4befad1225b852.png",
@@ -24,7 +24,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.3cf13eba.css.map": "/static/css/main.3cf13eba.css.map",
-    "main.d628a84b.js.map": "/static/js/main.d628a84b.js.map",
+    "main.cbaaaed3.js.map": "/static/js/main.cbaaaed3.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.ee235cec.chunk.js.map": "/static/js/64.ee235cec.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.3cf13eba.css",
-    "static/js/main.d628a84b.js"
+    "static/js/main.cbaaaed3.js"
   ]
 }
