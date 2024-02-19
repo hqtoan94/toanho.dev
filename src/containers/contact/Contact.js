@@ -38,7 +38,6 @@ export default function Contact() {
                     {contactInfo.number}
                   </a>
                   <br />
-                  <br />
                 </>
               )}
               <a
